@@ -11,11 +11,8 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTabletMode": true,
       "bundleIdentifier": "com.eraksha.cyber"
     },
     "android": {
@@ -24,8 +21,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.eraksha.cyber",
-      "permissions": [],
-      "versionCode": 1
+      "permissions": []
     },
     "web": {
       "favicon": "./assets/favicon.png"
