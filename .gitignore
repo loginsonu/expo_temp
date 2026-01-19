@@ -25,3 +25,7 @@ web-build/
 .gradle/
 build/
 .eas/
+.vscode/
+.expo/
+node_modules/
+
