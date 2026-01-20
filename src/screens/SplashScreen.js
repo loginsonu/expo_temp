@@ -12,7 +12,11 @@ export default function SplashScreen() {
     return () => clearTimeout(timer);
   }, []);
 
-  return (<View style={[styles.container, { backgroundColor: '#007AFF' }]}>);
+  return (
+  <View style={[styles.container, { backgroundColor: '#007AFF' }]}>
+    {/* Add splash UI here */}
+  </View>
+);
 }
 
 const styles = StyleSheet.create({
