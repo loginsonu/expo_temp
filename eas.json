@@ -1,10 +1,8 @@
 {
   "build": {
-    "preview": {
-      "distribution": "internal",
-      "android": {
-        "buildType": "apk",
-        "credentialsSource": "remote"
+    "production": {
+      "env": {
+        "NODE_OPTIONS": "--max_old_space_size=4096"
       }
     }
   }
